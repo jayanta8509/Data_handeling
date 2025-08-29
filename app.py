@@ -122,7 +122,7 @@ if __name__ == "__main__":
     uvicorn.run(
         "app:app",
         host="0.0.0.0",
-        port=8000,
+        port=8090,
         reload=False,  # Set to False for production
         workers=1,     # Increase for production based on CPU cores
         log_level="info"
